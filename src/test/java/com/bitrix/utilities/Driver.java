@@ -8,7 +8,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Driver {
     //1-make constrictor private
     private Driver(){
-
+//lll
+        //all good
     }
     private static WebDriver driver;
     public static WebDriver getDriver(){
