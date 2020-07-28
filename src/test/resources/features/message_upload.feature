@@ -73,7 +73,7 @@ Feature: As a user, I should be able to send messages by clicking on Message tab
     Then  User click on Create using desktop applications
 #    Then  Select document from locally ??????
 #    And   Click Select document button
-#    Then  Verify uploaded item there
+#    Then  Verify uploaded item there //
     Examples:
       | username                       | password |
       | helpdesk53@cybertekschool.com  | UserUser |
