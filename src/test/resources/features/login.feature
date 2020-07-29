@@ -1,3 +1,4 @@
+
 @lox
 Feature: User should be able to login with right credentials
   Scenario: go url

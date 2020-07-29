@@ -8,11 +8,20 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CrmLoginPage {
 
+
    public CrmLoginPage(){
        PageFactory.initElements(Driver.getDriver(),this);
    }
 
    @FindBy(xpath = "//input[@name='USER_LOGIN']")
+
+    public CrmLoginPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
+
+
+    @FindBy(xpath = "//input[@name='USER_LOGIN']")
+
     public WebElement usernameInput;
 
     @FindBy(xpath = "//input[@type='password']")
@@ -26,4 +35,7 @@ public class CrmLoginPage {
 
     @FindBy(xpath = "(//span[@class='menu-popup-item-text'])[5]")
     public WebElement logoutButton;
+
+
+
 }
