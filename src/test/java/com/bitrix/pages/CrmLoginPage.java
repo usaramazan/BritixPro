@@ -29,6 +29,7 @@ public class CrmLoginPage {
 
     @FindBy(xpath = "(//span[@class='menu-popup-item-text'])[5]")
     public WebElement logoutButton;
+    //iki satir
 
 
 
