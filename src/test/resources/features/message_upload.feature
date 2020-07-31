@@ -3,6 +3,7 @@ Feature: As a user, I should be able to send messages by clicking on Message tab
   Background:User is on given url
     Given User go into given url
 
+    @ac1
   Scenario Outline:User should be able to click on upload files icon to upload files and pictures
   from local disks
 
