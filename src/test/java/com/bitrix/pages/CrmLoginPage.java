@@ -1,6 +1,10 @@
 package com.bitrix.pages;
 
+
 //ucDEDIL DORT
+=======
+
+
 
 import com.bitrix.utilities.Driver;
 import com.bitrix.utilities.Driver;
@@ -26,12 +30,6 @@ public class CrmLoginPage {
     @FindBy(xpath = "//input[@type='submit']")
     public WebElement loginButton;
 
-    @FindBy(id = "user-name")
-    public WebElement emailArrow;
-
-    @FindBy(xpath = "(//span[@class='menu-popup-item-text'])[5]")
-    public WebElement logoutButton;
-    //iki satir
 
 
 
