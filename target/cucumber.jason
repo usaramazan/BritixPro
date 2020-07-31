@@ -1,0 +1,731 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User is logged in into CRM page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click to Activity Stream module",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects \"Workflow\" from \"WORKFLOW\" dropdown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.529Z",
+        "line": 14,
+        "name": "1. User should be able to request a Leave Approval by:",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;1.-user-should-be-able-to-request-a-leave-approval-by:",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be able to request a Leave Approval",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User selects \"Leave Approval\" from \"Workflow\" dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User is assigning approvers and processors",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User selecting start date",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User selecting ending date from date picker",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User select \"Absence type\" from dropdown",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User entering reason for leave information.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User clicks on send button leave approval",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User is logged in into CRM page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click to Activity Stream module",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects \"Workflow\" from \"WORKFLOW\" dropdown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.707Z",
+        "line": 25,
+        "name": "2. User should be able to request a Business Trip by:",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;2.-user-should-be-able-to-request-a-business-trip-by:",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should be able to request a Business Trip",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User selects \"Business Trip\" from \"Workflow\" dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User  assigning approvers, processors and entering user instructions",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User entering trip Title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User entering Destination",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User selecting start date",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User selecting ending date from date picker",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User entering Purpose",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User enters Planned Expenses",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User select \"Currency\" from information dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User clicks Add File and attach documents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User clicks on send button to send business trip",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User is logged in into CRM page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click to Activity Stream module",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects \"Workflow\" from \"WORKFLOW\" dropdown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.764Z",
+        "line": 40,
+        "name": "3. User should be able to send a General Request",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;3.-user-should-be-able-to-send-a-general-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User should be able to send a General Requests",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User selects \"General Requests\" from \"Workflow\" dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User enters title by writing on \"Title\" description",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User enters \" Description\" on description part",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User select priority level by clicking on \"Priority level\" dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User send Request To field by selecting from \"Select\" dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User clicks on send button to send request",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User is logged in into CRM page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click to Activity Stream module",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects \"Workflow\" from \"WORKFLOW\" dropdown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.815Z",
+        "line": 52,
+        "name": "4. User should be able to send a Purchase Request by:",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;4.-user-should-be-able-to-send-a-purchase-request-by:",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "User should be able to send a Purchase Request",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "User selects \"Purchase Request\" from \"Workflow\" dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "User assigning approvers and processors",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "User entering Request Title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "User enters Amount",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "User select Currency by clicking on \"Currency\" dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "User attach documents by clicking on \"Add File\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "User clicks on send button to send purchase request",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User is logged in into CRM page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click to Activity Stream module",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects \"Workflow\" from \"WORKFLOW\" dropdown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.845Z",
+        "line": 64,
+        "name": "5. User should be able to send an Expense Report by:",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;5.-user-should-be-able-to-send-an-expense-report-by:",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "User should be able to send an Expense Report",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "User selects \"Expense Report\" from \"Workflow\" dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "User assigning approvers and accountants",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "User entering Report Title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "User write description",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "User enter amount",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "User select Currency from \"Currency\" dropdown",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "User attach files by clicking on \"Add File\" dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "User clicks on send button to send expense report",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.854Z",
+        "line": 78,
+        "name": "6. User should be able to create new workflows.",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;6.-user-should-be-able-to-create-new-workflows.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Authorized user is on the bitrix home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-07-26T20:24:05.859Z",
+        "line": 83,
+        "name": "7. User should be able to access Workflows Directory page.",
+        "description": "",
+        "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream;7.-user-should-be-able-to-access-workflows-directory-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      }
+    ],
+    "name": "Creating and sending workflows from \"More\" tab under Activity Stream",
+    "description": "    Agile Story: As a user, I should be able to create and send workflows by selecting different\n    workflows from \"More\" tab under Activity Stream.",
+    "id": "creating-and-sending-workflows-from-\"more\"-tab-under-activity-stream",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/bitrix.feature",
+    "tags": [
+      {
+        "name": "@bitrix",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
