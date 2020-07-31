@@ -1,748 +1,588 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
         "line": 3,
-        "name": "User is on given url",
+        "name": "Backstory is that user is on the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3746000000,
+              "duration": 34915000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "User go into given url",
+            "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userGoIntoGivenUrl()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-31T01:26:54.530Z",
-        "line": 20,
-        "name": "User should be able to click on upload files icon to upload files and pictures",
-        "description": "  from local disks",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures;;2",
+        "start_timestamp": "2020-07-31T08:41:20.454Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "user-should-be-able-to-login-successfully-with-right-credentials;;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 124000000,
+              "duration": 7799000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User enters \"helpdesk53@cybertekschool.com\" and \"UserUser\"",
+            "line": 6,
+            "name": "User enter \"helpdesk53@cybertekschool.com\" and \"UserUser\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"helpdesk53@cybertekschool.com\"",
-                  "offset": 12
+                  "offset": 11
                 },
                 {
                   "val": "\"UserUser\"",
-                  "offset": 48
+                  "offset": 47
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1594000000,
+              "duration": 1000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "User click on login button",
+            "line": 7,
+            "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.userClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "User click on message button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User click on upload file icon",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.user_click_on_upload_file_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User click on Upload files and images",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userClickOnUploadFilesAndImages()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7000000,
+              "status": "passed"
             },
-            "line": 15,
-            "name": "Select document from computer",
-            "match": {},
+            "line": 8,
+            "name": "Verify the page title has Portal",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 945000000,
+              "status": "passed"
             },
-            "line": 17,
-            "name": "Verify uploaded item there",
+            "line": 9,
+            "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.verifyUploadedItemThere()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@ac1"
+            "name": "@login"
           }
         ]
       },
       {
         "line": 3,
-        "name": "User is on given url",
+        "name": "Backstory is that user is on the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1010000000,
+              "duration": 954000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "User go into given url",
+            "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userGoIntoGivenUrl()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-31T01:27:00.071Z",
-        "line": 21,
-        "name": "User should be able to click on upload files icon to upload files and pictures",
-        "description": "  from local disks",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures;;3",
+        "start_timestamp": "2020-07-31T08:42:04.258Z",
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "user-should-be-able-to-login-successfully-with-right-credentials;;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027USER_LOGIN\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.105)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sevgins-MacBook-Pro.local\u0027, ip: \u00272604:2000:1201:883e:0:8b6d:598d:e9d7%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/7y/bpvb21q13j7...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a58ced1429e4f9a5d2a435086af05e9f\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027USER_LOGIN\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(CrmLogin_StepDefinition.java:19)\n\tat ✽.User enters \"helpdesk54@cybertekschool.com\" and \"UserUser\"(file:///Users/sevginhekimoglu/IdeaProjects/BritixPro/src/test/resources/features/message_upload.feature:10)\n",
-              "duration": 20000000,
-              "status": "failed"
+              "duration": 4110000000,
+              "status": "passed"
             },
-            "line": 10,
-            "name": "User enters \"helpdesk54@cybertekschool.com\" and \"UserUser\"",
+            "line": 6,
+            "name": "User enter \"helpdesk54@cybertekschool.com\" and \"UserUser\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"helpdesk54@cybertekschool.com\"",
-                  "offset": 12
+                  "offset": 11
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the page title has Portal",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should logout",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Backstory is that user is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T08:42:09.679Z",
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "user-should-be-able-to-login-successfully-with-right-credentials;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1565000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"hr53@cybertekschool.com\" and \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr53@cybertekschool.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the page title has Portal",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 350000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should logout",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Backstory is that user is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T08:42:11.864Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "user-should-be-able-to-login-successfully-with-right-credentials;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1585000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"hr54@cybertekschool.com\" and \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr54@cybertekschool.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the page title has Portal",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should logout",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Backstory is that user is on the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T08:42:14.162Z",
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "user-should-be-able-to-login-successfully-with-right-credentials;;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1729000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"marketing53@cybertekschool.com\" and \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing53@cybertekschool.com\"",
+                  "offset": 11
                 },
                 {
                   "val": "\"UserUser\"",
                   "offset": 48
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 11,
-            "name": "User click on login button",
+            "line": 7,
+            "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.userClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User click on message button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User click on upload file icon",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.user_click_on_upload_file_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User click on Upload files and images",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userClickOnUploadFilesAndImages()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 13000000,
+              "status": "passed"
             },
-            "line": 15,
-            "name": "Select document from computer",
-            "match": {},
+            "line": 8,
+            "name": "Verify the page title has Portal",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 383000000,
+              "status": "passed"
             },
-            "line": 17,
-            "name": "Verify uploaded item there",
+            "line": 9,
+            "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.verifyUploadedItemThere()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@ac1"
+            "name": "@login"
           }
         ]
       },
       {
         "line": 3,
-        "name": "User is on given url",
+        "name": "Backstory is that user is on the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 881000000,
+              "duration": 214000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "User go into given url",
+            "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userGoIntoGivenUrl()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-31T01:27:01.111Z",
-        "line": 22,
-        "name": "User should be able to click on upload files icon to upload files and pictures",
-        "description": "  from local disks",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027USER_LOGIN\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.105)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sevgins-MacBook-Pro.local\u0027, ip: \u00272604:2000:1201:883e:0:8b6d:598d:e9d7%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/7y/bpvb21q13j7...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a58ced1429e4f9a5d2a435086af05e9f\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027USER_LOGIN\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(CrmLogin_StepDefinition.java:19)\n\tat ✽.User enters \"hr53@cybertekschool.com\" and \"UserUser\"(file:///Users/sevginhekimoglu/IdeaProjects/BritixPro/src/test/resources/features/message_upload.feature:10)\n",
-              "duration": 11000000,
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "User enters \"hr53@cybertekschool.com\" and \"UserUser\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr53@cybertekschool.com\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User click on login button",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.userClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User click on message button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User click on upload file icon",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.user_click_on_upload_file_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User click on Upload files and images",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userClickOnUploadFilesAndImages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "Select document from computer",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "Verify uploaded item there",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.verifyUploadedItemThere()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@ac1"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "User is on given url",
+        "start_timestamp": "2020-07-31T08:42:16.509Z",
+        "line": 17,
+        "name": "",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 852000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User go into given url",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userGoIntoGivenUrl()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-31T01:27:02.010Z",
-        "line": 23,
-        "name": "User should be able to click on upload files icon to upload files and pictures",
-        "description": "  from local disks",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures;;5",
+        "id": "user-should-be-able-to-login-successfully-with-right-credentials;;;7",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027USER_LOGIN\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.105)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sevgins-MacBook-Pro.local\u0027, ip: \u00272604:2000:1201:883e:0:8b6d:598d:e9d7%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/7y/bpvb21q13j7...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a58ced1429e4f9a5d2a435086af05e9f\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027USER_LOGIN\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(CrmLogin_StepDefinition.java:19)\n\tat ✽.User enters \"hr54@cybertekschool.com\" and \"UserUser\"(file:///Users/sevginhekimoglu/IdeaProjects/BritixPro/src/test/resources/features/message_upload.feature:10)\n",
-              "duration": 11000000,
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "User enters \"hr54@cybertekschool.com\" and \"UserUser\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr54@cybertekschool.com\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User click on login button",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.userClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User click on message button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User click on upload file icon",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.user_click_on_upload_file_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User click on Upload files and images",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userClickOnUploadFilesAndImages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "Select document from computer",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "Verify uploaded item there",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.verifyUploadedItemThere()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@ac1"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "User is on given url",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 837000000,
+              "duration": 1601000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User go into given url",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userGoIntoGivenUrl()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-31T01:27:02.881Z",
-        "line": 24,
-        "name": "User should be able to click on upload files icon to upload files and pictures",
-        "description": "  from local disks",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027USER_LOGIN\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.105)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sevgins-MacBook-Pro.local\u0027, ip: \u00272604:2000:1201:883e:0:8b6d:598d:e9d7%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/7y/bpvb21q13j7...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a58ced1429e4f9a5d2a435086af05e9f\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027USER_LOGIN\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(CrmLogin_StepDefinition.java:19)\n\tat ✽.User enters \"marketing53@cybertekschool.com\" and \"UserUser\"(file:///Users/sevginhekimoglu/IdeaProjects/BritixPro/src/test/resources/features/message_upload.feature:10)\n",
-              "duration": 8000000,
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "User enters \"marketing53@cybertekschool.com\" and \"UserUser\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"marketing53@cybertekschool.com\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User click on login button",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.userClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User click on message button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User click on upload file icon",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.user_click_on_upload_file_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User click on Upload files and images",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userClickOnUploadFilesAndImages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "Select document from computer",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "Verify uploaded item there",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.verifyUploadedItemThere()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@ac1"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "User is on given url",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 921000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User go into given url",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userGoIntoGivenUrl()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-31T01:27:03.733Z",
-        "line": 25,
-        "name": "User should be able to click on upload files icon to upload files and pictures",
-        "description": "  from local disks",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027USER_LOGIN\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.105)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sevgins-MacBook-Pro.local\u0027, ip: \u00272604:2000:1201:883e:0:8b6d:598d:e9d7%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/7y/bpvb21q13j7...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a58ced1429e4f9a5d2a435086af05e9f\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027USER_LOGIN\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(CrmLogin_StepDefinition.java:19)\n\tat ✽.User enters \"marketing54@cybertekschool.com\" and \"UserUser\"(file:///Users/sevginhekimoglu/IdeaProjects/BritixPro/src/test/resources/features/message_upload.feature:10)\n",
-              "duration": 11000000,
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "User enters \"marketing54@cybertekschool.com\" and \"UserUser\"",
+            "line": 6,
+            "name": "User enter \"marketing54@cybertekschool.com\" and \"UserUser\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"marketing54@cybertekschool.com\"",
-                  "offset": 12
+                  "offset": 11
                 },
                 {
                   "val": "\"UserUser\"",
-                  "offset": 49
+                  "offset": 48
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 11,
-            "name": "User click on login button",
+            "line": 7,
+            "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.CrmLogin_StepDefinition.userClickOnLoginButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User click on message button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User click on upload file icon",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.user_click_on_upload_file_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User click on Upload files and images",
-            "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.userClickOnUploadFilesAndImages()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 12000000,
+              "status": "passed"
             },
-            "line": 15,
-            "name": "Select document from computer",
-            "match": {},
+            "line": 8,
+            "name": "Verify the page title has Portal",
+            "match": {
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 351000000,
+              "status": "passed"
             },
-            "line": 17,
-            "name": "Verify uploaded item there",
+            "line": 9,
+            "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.Crm_Upload_StepDefination.verifyUploadedItemThere()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@ac1"
+            "name": "@login"
           }
         ]
       }
     ],
-    "name": "As a user, I should be able to send messages by clicking on Message tab under Active Stream.",
+    "name": "User should be able to login successfully with right credentials",
     "description": "",
-    "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.",
+    "id": "user-should-be-able-to-login-successfully-with-right-credentials",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/message_upload.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/US9.feature/AClogIn.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

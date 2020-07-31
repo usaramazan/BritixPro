@@ -11,6 +11,7 @@ public class CrmLogin_StepDefinition {
 
     @Given("User goes into given url")
     public void userGoesIntoGivenUrl() {
+
         Driver.getDriver().get("https://login2.nextbasecrm.com/");
     }
 
@@ -35,9 +36,9 @@ public class CrmLogin_StepDefinition {
     }
 
     @Then("user click arrow")
-    public void userClickArrow() throws InterruptedException {
-        crmLoginPage.emailArrow.click();
-        Thread.sleep(3000);
+    public void userClickArrow()  {
+       crmLoginPage.emailArrow.click();
+
 
     }
 
@@ -47,4 +48,6 @@ public class CrmLogin_StepDefinition {
         crmLoginPage.usernameInput.clear();
         Thread.sleep(2000);
     }
+
+
 }
