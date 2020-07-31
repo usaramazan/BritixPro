@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
             features = "src/test/resources/features",
             glue = "com/bitrix/stepDefinitions",
             dryRun = false,
-            tags = "@ac1"
+            tags = "@login"
 
     )
 

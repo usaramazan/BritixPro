@@ -29,10 +29,14 @@ public class Driver {
         }
         return driver;
 
-        //Online15 late night study session :)
+    }
 
-        //hello I am here.
+    public static void closeDriver(){
+        if(driver !=null){
+            driver.quit();
+            driver=null;
+        }
     }
 }
 
-//marina
+
