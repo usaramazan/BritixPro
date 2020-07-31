@@ -27,13 +27,7 @@ public class CrmLoginPage {
     @FindBy(xpath = "//input[@type='submit']")
     public WebElement loginButton;
 
-    @FindBy(id = "user-name")
-    public WebElement emailArrow;
 
-    @FindBy(xpath = "(//span[@class='menu-popup-item-text'])[5]")
-    public WebElement logoutButton;
-    //hellor jhijlkasmd
-//3 satir hello
 
 
 }
