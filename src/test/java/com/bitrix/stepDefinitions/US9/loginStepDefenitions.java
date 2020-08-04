@@ -36,8 +36,8 @@ public class loginStepDefenitions {
     @Then("Verify the page title has Portal")
     public void verifyThePageTitleHasPortal() {
 
-       String expected = "Portal";
-       String actual = Driver.getDriver().getTitle();
+        String expected = "Portal";
+        String actual = Driver.getDriver().getTitle();
         Assert.assertTrue(actual.contains(expected));
         System.out.println("Page title is Successful Displayed");
     }
