@@ -11,20 +11,20 @@
         "steps": [
           {
             "result": {
-              "duration": 26798000000,
+              "duration": 56048000000,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-01T03:05:38.098Z",
+        "start_timestamp": "2020-08-04T03:19:44.478Z",
         "line": 12,
         "name": "",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12134000000,
+              "duration": 17802000000,
               "status": "passed"
             },
             "line": 6,
@@ -50,43 +50,42 @@
                   "offset": 47
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_enter_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
             "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_click_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 18000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 8,
             "name": "Verify the page title has Portal",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verify_the_page_title_has_portal()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 758000000,
+              "duration": 1683000000,
               "status": "passed"
             },
             "line": 9,
             "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_should_logout()"
             },
             "keyword": "Then "
           }
@@ -106,20 +105,20 @@
         "steps": [
           {
             "result": {
-              "duration": 8397000000,
+              "duration": 12990000000,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-01T03:06:17.907Z",
+        "start_timestamp": "2020-08-04T03:21:00.120Z",
         "line": 13,
         "name": "",
         "description": "",
@@ -129,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2951000000,
+              "duration": 27937000000,
               "status": "passed"
             },
             "line": 6,
@@ -145,43 +144,42 @@
                   "offset": 47
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_enter_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
             "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_click_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 729000000,
               "status": "passed"
             },
             "line": 8,
             "name": "Verify the page title has Portal",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verify_the_page_title_has_portal()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1377000000,
+              "duration": 3660000000,
               "status": "passed"
             },
             "line": 9,
             "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_should_logout()"
             },
             "keyword": "Then "
           }
@@ -201,20 +199,20 @@
         "steps": [
           {
             "result": {
-              "duration": 5017000000,
+              "duration": 11790000000,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-01T03:06:30.645Z",
+        "start_timestamp": "2020-08-04T03:21:45.447Z",
         "line": 14,
         "name": "",
         "description": "",
@@ -224,7 +222,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3611000000,
+              "duration": 21943000000,
               "status": "passed"
             },
             "line": 6,
@@ -240,7 +238,7 @@
                   "offset": 41
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_enter_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
@@ -251,31 +249,31 @@
             "line": 7,
             "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_click_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 8,
             "name": "Verify the page title has Portal",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verify_the_page_title_has_portal()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 787000000,
+              "duration": 1673000000,
               "status": "passed"
             },
             "line": 9,
             "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_should_logout()"
             },
             "keyword": "Then "
           }
@@ -295,20 +293,20 @@
         "steps": [
           {
             "result": {
-              "duration": 4930000000,
+              "duration": 14093000000,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-01T03:06:40.074Z",
+        "start_timestamp": "2020-08-04T03:22:20.866Z",
         "line": 15,
         "name": "",
         "description": "",
@@ -318,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2186000000,
+              "duration": 9698000000,
               "status": "passed"
             },
             "line": 6,
@@ -334,7 +332,7 @@
                   "offset": 41
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_enter_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
@@ -345,31 +343,31 @@
             "line": 7,
             "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_click_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 8,
             "name": "Verify the page title has Portal",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verify_the_page_title_has_portal()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 913000000,
+              "duration": 2469000000,
               "status": "passed"
             },
             "line": 9,
             "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_should_logout()"
             },
             "keyword": "Then "
           }
@@ -389,20 +387,20 @@
         "steps": [
           {
             "result": {
-              "duration": 3943000000,
+              "duration": 5755000000,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-01T03:06:48.114Z",
+        "start_timestamp": "2020-08-04T03:22:47.145Z",
         "line": 16,
         "name": "",
         "description": "",
@@ -412,7 +410,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2391000000,
+              "duration": 8930000000,
               "status": "passed"
             },
             "line": 6,
@@ -428,7 +426,7 @@
                   "offset": 48
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_enter_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
@@ -439,7 +437,7 @@
             "line": 7,
             "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_click_login_button()"
             },
             "keyword": "Then "
           },
@@ -451,19 +449,19 @@
             "line": 8,
             "name": "Verify the page title has Portal",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verify_the_page_title_has_portal()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 587000000,
+              "duration": 1241000000,
               "status": "passed"
             },
             "line": 9,
             "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_should_logout()"
             },
             "keyword": "Then "
           }
@@ -483,20 +481,20 @@
         "steps": [
           {
             "result": {
-              "duration": 4172000000,
+              "duration": 9423000000,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on the login page",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userIsOnTheLoginPage()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-01T03:06:55.045Z",
+        "start_timestamp": "2020-08-04T03:23:03.125Z",
         "line": 17,
         "name": "",
         "description": "",
@@ -506,7 +504,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3139000000,
+              "duration": 3801000000,
               "status": "passed"
             },
             "line": 6,
@@ -522,7 +520,7 @@
                   "offset": 48
                 }
               ],
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_enter_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
@@ -533,31 +531,31 @@
             "line": 7,
             "name": "User click login button",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userClickLoginButton()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_click_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 16000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 8,
             "name": "Verify the page title has Portal",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verifyThePageTitleHasPortal()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.verify_the_page_title_has_portal()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 861000000,
+              "duration": 2399000000,
               "status": "passed"
             },
             "line": 9,
             "name": "User should logout",
             "match": {
-              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.userShouldLogout()"
+              "location": "com.bitrix.stepDefinitions.US9.loginStepDefenitions.user_should_logout()"
             },
             "keyword": "Then "
           }
