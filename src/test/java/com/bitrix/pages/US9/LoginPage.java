@@ -1,18 +1,13 @@
 package com.bitrix.pages.US9;
 
-import com.bitrix.utilities.ConfigurationReader;
+
 import com.bitrix.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import sun.jvm.hotspot.debugger.Page;
 
-import javax.security.auth.login.Configuration;
-import java.util.ArrayList;
-import java.util.Arrays;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 
 //extends BasePage class

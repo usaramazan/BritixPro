@@ -5,10 +5,8 @@ import com.bitrix.utilities.ConfigurationReader;
 import com.bitrix.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import sun.jvm.hotspot.debugger.Page;
+
 
 public class loginStepDefenitions {
 
