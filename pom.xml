@@ -39,6 +39,7 @@
             <version>4.0.0</version>
         </dependency>
 
+
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
             <groupId>com.github.javafaker</groupId>
@@ -60,38 +61,13 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
-                        <include>**/*ParallelRunner*.java</include>
+                        <include>**/*Runner*.java</include>
                     </includes>
-                    <testFailureIgnore>false</testFailureIgnore>
-                    <runOrder>alphabetical</runOrder>
-                    <parallel>methods</parallel>
-                    <threadCount>3</threadCount>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <perCoreThreadCount>false</perCoreThreadCount>
-                    <forkCount>2C</forkCount>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.3.0</version>
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>Cucumber HTML Reports</projectName>
-                            <outputDirectory>${project.build.directory}</outputDirectory>
-                            <inputDirectory>${project.build.directory}</inputDirectory>
-                            <jsonFiles>
-                                <param>**/cucumber*.json</param>
-                            </jsonFiles>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
