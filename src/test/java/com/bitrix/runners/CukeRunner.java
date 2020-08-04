@@ -12,9 +12,10 @@ import org.junit.runner.RunWith;
 
         //"json:target/cucumber.jason","rerun:target/rerun.txt"
         features = "src/test/resources/features",
-        glue = "com/crm24/stepdefinitions",
+        glue = "com/bitrix/stepDefinitions",
         dryRun = false,
         tags = "@login"
+        //change
 )
 
 public class CukeRunner {

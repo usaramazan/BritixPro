@@ -15,14 +15,14 @@ public class loginStepDefenitions {
     LoginPage loginPage = new LoginPage();
 
     @Given("User is on the login page")
-    public void userIsOnTheLoginPage() {
+    public void user_is_on_the_login_page() {
         String URL = ConfigurationReader.getProperty("url");
         Driver.getDriver().get(URL);
         Driver.getDriver().manage().window().maximize();
     }
 
     @Given("User enter {string} and {string}")
-    public void userEnterAnd(String username, String password) {
+    public void user_enter_and(String username, String password) {
 
 
         loginPage.login(username, password);
@@ -30,11 +30,11 @@ public class loginStepDefenitions {
 
 
     @Then("User click login button")
-    public void userClickLoginButton() {
+    public void user_click_login_button() {
     }
 
     @Then("Verify the page title has Portal")
-    public void verifyThePageTitleHasPortal() {
+    public void verify_the_page_title_has_portal() {
 
         String expected = "Portal";
         String actual = Driver.getDriver().getTitle();
@@ -43,7 +43,7 @@ public class loginStepDefenitions {
     }
 
     @Then("User should logout")
-    public void userShouldLogout() {
+    public void user_should_logout() {
         loginPage.logout();
 
 
