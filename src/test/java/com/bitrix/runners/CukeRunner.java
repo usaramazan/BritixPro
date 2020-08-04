@@ -16,7 +16,9 @@ import org.junit.runner.RunWith;
         glue = "com/bitrix/stepDefinitions",
         dryRun = false,
         tags = "@login"
+
         //change
+
 )
 
 public class CukeRunner {
