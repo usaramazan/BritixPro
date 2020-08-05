@@ -1,6 +1,7 @@
 package com.bitrix.pages.US9;
 
 
+import com.bitrix.utilities.ConfigurationReader;
 import com.bitrix.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -66,6 +67,15 @@ for(int i = 0; i< usernames.size(); i++) {
     }
 
  */
+
+    public void login(){
+        String userName = ConfigurationReader.getProperty("username1");
+        String password = ConfigurationReader.getProperty("password");
+        usernameInput.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), userName);
+        passwordInput.sendKeys(password, Keys.ENTER);
+
+
+    }
 
     public void logout(){
         wait.until(ExpectedConditions.visibilityOf(emailArrow));

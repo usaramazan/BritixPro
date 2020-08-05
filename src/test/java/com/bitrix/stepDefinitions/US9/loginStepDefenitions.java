@@ -19,17 +19,14 @@ public class loginStepDefenitions {
         Driver.getDriver().manage().window().maximize();
     }
 
-    @Given("User enter {string} and {string}")
-    public void user_enter_and(String username, String password) {
+    @Given("User enter {string} and {string}, click login button")
+    public void userEnterAndClickLoginButton(String username, String password) {
 
-
-        loginPage.login(username, password);
+       loginPage.login(username, password);
     }
 
 
-    @Then("User click login button")
-    public void user_click_login_button() {
-    }
+
 
     @Then("Verify the page title has Portal")
     public void verify_the_page_title_has_portal() {
@@ -46,6 +43,7 @@ public class loginStepDefenitions {
 
 
     }
+
 
 
 
