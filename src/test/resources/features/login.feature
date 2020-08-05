@@ -1,5 +1,4 @@
-
-@lox
+@login_all
 Feature: User should be able to login with right credentials
   Scenario: go url
     Given User goes into given url
@@ -18,3 +17,5 @@ Feature: User should be able to login with right credentials
       | hr54@cybertekschool.com        | UserUser |
       | marketing53@cybertekschool.com | UserUser |
       | marketing54@cybertekschool.com | UserUser |
+
+
