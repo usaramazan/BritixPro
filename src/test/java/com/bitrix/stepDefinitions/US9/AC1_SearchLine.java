@@ -12,8 +12,8 @@ public class AC1_SearchLine {
     LoginPage loginPage = new LoginPage();
     AC1_SearchPage searchPage = new AC1_SearchPage();
 
-    @Given("User is on the Active Stream page")
-    public void user_is_on_the_active_stream_page() {
+    @Given("User on the Active Stream page")
+    public void user_on_the_active_stream_page() {
 
         loginPage.login();
     }
@@ -38,6 +38,7 @@ public class AC1_SearchLine {
         // For other transformations you can register a DataTableType.
 
     }
+
 
 
 }
